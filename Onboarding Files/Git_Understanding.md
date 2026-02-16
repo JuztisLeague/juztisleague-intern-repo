@@ -5,3 +5,12 @@ Pull Request is really important, especially when you're in a workspace that is 
 A well-structured PR is the ability to explain the necessary additions to the code you committed on GitHub. This means that a well-structured PR is easily understood and can properly merge with the main program without any problems. 
 
 The PR is explained thoroughly, and the peers and mentors give feedback on the necessary changes you make to your PR to the main program. I understand that it is much easier for your peers, workmates, or supervisor to understand properly your PR in order to easily debug and realize your code additions.
+
+# Writing Meaningful Commit Messages
+
+A good commit message is a well-structured message that answers What, Where, and Why questions regarding the code you added or fixed. Usually, professionals use a format that has a short description, fix, feat, and refactor. 
+
+Commit messages are important in order for the other team to realize and understand the description of every commit you make. Having a lot of developers and lots of commits, however, there are no messages in every commit. This causes the lack of backtracking to what codes were added to the main program, and this will cause issues in the future.
+How can poor commit messages cause issues later?
+
+Poor commit messages cause misinformation and the lack of determining the commits during backtracking. You also wait for the time of your supervisor or peers on what to fix or refactor in your commit due to a lack of information. 
