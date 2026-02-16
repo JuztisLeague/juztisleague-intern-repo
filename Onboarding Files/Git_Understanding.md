@@ -14,3 +14,10 @@ Commit messages are important in order for the other team to realize and underst
 How can poor commit messages cause issues later?
 
 Poor commit messages cause misinformation and the lack of determining the commits during backtracking. You also wait for the time of your supervisor or peers on what to fix or refactor in your commit due to a lack of information. 
+
+# Debugging with git bisect
+Git bisect is the ability to recognize and detect the possible causes of bugs on all the different commits you have made. This command makes it easier for you to determine which commit causes the bug in your program.  
+ 
+You use this especially when you have a lot of developers working on one application. They would commit different code into the main program, and you can't track what causes the bug. Using this method, you can quickly discover the bugs that are needed to be changed.
+
+Manually reviewing commits is very time-consuming, especially for an application with a lot of developers. This causes confusion in checking the different commits manually, rather than using a tool or command that can easily check the different commits that your developer posted for bugs. 
