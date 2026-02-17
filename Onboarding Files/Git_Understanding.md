@@ -43,3 +43,11 @@ Conflict occurs when different symbols or content appear in the same file. This 
 Opening my Git Desktop client to check where or which part of the file has the conflict, this usually has conflict markers shown, and this is easily determined. Once it is determined, I then manually edit the file to have its correct version.
 
 I have learned that merge conflicts occur when a file in different branches has different code content. This causes problems, especially during many improvements and changes to the program, and then merging the code to the main branch. I also learned that to fix these conflicts, you need to edit the file itself in order to align with the other file once you merge them.
+
+# Branching & Team Collaboration
+
+It is problematic to push directly to the main branch because it usually has the stable and production-ready version of the project. If you push code that has bugs, it will break the entire project. This will affect the team's efforts to make the main branch.
+
+Branches help with reviewing code since this allows developers to work on their changes separately from the main branch. Once the changes are complete, the developers then creates its pull request in order for other developers to review and check for possible bugs or improvements. This is in order for the process of development to ensure quality and efficiency. 
+
+If two people edit the same file on different branches, Git will try to merge the changes when the branches are combined. However, if both people edit on the same line merge conflict will occur because Git can't decide which change to keep, and the developers must manually fix this problem.
