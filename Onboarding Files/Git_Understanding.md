@@ -21,3 +21,17 @@ Git bisect is the ability to recognize and detect the possible causes of bugs on
 You use this especially when you have a lot of developers working on one application. They would commit different code into the main program, and you can't track what causes the bug. Using this method, you can quickly discover the bugs that are needed to be changed.
 
 Manually reviewing commits is very time-consuming, especially for an application with a lot of developers. This causes confusion in checking the different commits manually, rather than using a tool or command that can easily check the different commits that your developer posted for bugs. 
+
+# Advanced Git Commands & When to Use Them
+
+**git checkout** -  this command restores one file from your main branch without you touching other files.
+
+**git cherry pick** - this command copies one commit from the other branch.
+
+**git log** - this shows the different commit history you have made.
+
+**git blame** - shows the user who changed each line and when that line was changed.
+
+Well, using these files in a real time projects is when you have long-running projects, since what happens is that many collaborators come in to edit the code, and this causes confusion about the different commits and the causes of the bugs in your system. In this way, you can easily track who and when the commits have been made and determine which commits cause the bugs. You can even restore a file if it is corrupted.
+
+The one that surprises me is the git blame command, since this is very useful for the developers, especially those who have a long-running application. This has the ability to determine who changed the line and when it was changed. This is very useful, especially in determining what causes the bug in your application.
