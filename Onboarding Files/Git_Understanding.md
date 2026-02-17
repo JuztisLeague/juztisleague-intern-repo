@@ -35,3 +35,11 @@ Manually reviewing commits is very time-consuming, especially for an application
 Well, using these files in a real time projects is when you have long-running projects, since what happens is that many collaborators come in to edit the code, and this causes confusion about the different commits and the causes of the bugs in your system. In this way, you can easily track who and when the commits have been made and determine which commits cause the bugs. You can even restore a file if it is corrupted.
 
 The one that surprises me is the git blame command, since this is very useful for the developers, especially those who have a long-running application. This has the ability to determine who changed the line and when it was changed. This is very useful, especially in determining what causes the bug in your application.
+
+#  Merge Conflicts & Conflict Resolution
+
+Conflict occurs when different symbols or content appear in the same file. This makes Git confused about which branch has the right content and which file to keep, since both branches have different information. 
+
+Opening my Git Desktop client to check where or which part of the file has the conflict, this usually has conflict markers shown, and this is easily determined. Once it is determined, I then manually edit the file to have its correct version.
+
+I have learned that merge conflicts occur when a file in different branches has different code content. This causes problems, especially during many improvements and changes to the program, and then merging the code to the main branch. I also learned that to fix these conflicts, you need to edit the file itself in order to align with the other file once you merge them.
