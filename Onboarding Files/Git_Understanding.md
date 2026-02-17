@@ -51,3 +51,10 @@ It is problematic to push directly to the main branch because it usually has the
 Branches help with reviewing code since this allows developers to work on their changes separately from the main branch. Once the changes are complete, the developers then creates its pull request in order for other developers to review and check for possible bugs or improvements. This is in order for the process of development to ensure quality and efficiency. 
 
 If two people edit the same file on different branches, Git will try to merge the changes when the branches are combined. However, if both people edit on the same line merge conflict will occur because Git can't decide which change to keep, and the developers must manually fix this problem.
+
+# Staging vs. Committing
+Staging is a process that prepares specific changes that is to be included in the next commit using the **git add** command.  This allows you to select which modified files or parts of the files will be saved. As for committing, it is the process of permanently saving the stage changes into your repository, which is using the **git commit** command. 
+
+They separated these commands in order for developers to have more control over their commits. It also allows developers to organize their changes into meaningful commits instead of committing everything at once.
+
+You want to stage changes without committing when you are still working on another part of the project. This allows you to review the staged changes. Ensure that they are correct and group related changes together before committing. 
