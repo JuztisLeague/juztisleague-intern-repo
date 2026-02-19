@@ -10,8 +10,14 @@ The issue with the original code is that it does not have the ability to check i
 
 Error handling improves the reliability of your code because it handles the possibility of error coming out in your development. Implementing error handling is useful because it shows you what the possible errors in your code and you can adjust to that error where the program doesn't undergo that error.
 
-# Refactoring Code for Simplicity
+# Writing Small, Focused Functions
 
+Why is breaking down functions beneficial?
+Breaking down the function is beneficial because it avoids multiple responsibilities and makes the function easy to test. If bad functions are implemented, they usually have multiple responsibilities, are hard to test, hard to reuse, and are too long. Fixing this is through breaking down its function for it efficient and simpler for other developers to understand.
+
+Refactoring improves the structure of the code by making it more efficient and easier to understand. The functions are shortened, and it is now easier to test. Also, functions are becoming much easier to reuse.
+
+# Refactoring Code for Simplicity
 
 The original code is complex due to having too many nested conditionals, loop & conditionals are mixed, and lastly, console logs inside logics. This was the original code's problem and its complexity, and I will try to refactor it to make it simpler and more efficient.
 
