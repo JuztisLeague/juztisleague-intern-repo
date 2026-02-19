@@ -23,6 +23,14 @@ The original code is complex due to having too many nested conditionals, loop & 
 
 Refactoring improves the number of functions; some were omitted, and another is adding guard clauses to reduce nested conditionals. Lastly, it is to have readable logic, refactoring the code not only for the programs efficiency but also the ability for other developers to easily understand your logic in coding.
 
+# Naming Variables & Functions
+
+A good variable should describe the intent clearly, must use complete words, must be easier to understand, and use nouns for variables & verbs for functions. This is so that other developers will easily understand your code and easily reuse variables as well.
+
+Most problems or issues comes out in poorly named variables are that they're not understandable to other developers and might take a long time to reuse the variables once you explain them. Others can cause bugs due to the misuse of the variables; you should let them understand in order to have easier and more efficient development.
+
+Refactoring helps improve the readability of the code since I changed the unclear names and changed them into descriptive ones. Not just the variables, but I also include the functions as well for easier understanding of the code.
+
 # Commenting & Documentation
 
 You add comments when you're explaining your code, describing complex algorithms, documenting function inputs or outputs, and edge cases or assumptions. The following are the reasons when you should add comments: this is in order for your fellow developer to understand your code. 
