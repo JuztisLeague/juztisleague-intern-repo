@@ -9,3 +9,9 @@ Issues I have while testing are that the function logic doesn't match the expect
 The issue with the original code is that it does not have the ability to check if the inputs are numbers, and also it doesn't prevent negative prices or invalid discounts. Those were the issues, and it was fixed once the introduction to error handling was made.
 
 Error handling improves the reliability of your code because it handles the possibility of error coming out in your development. Implementing error handling is useful because it shows you what the possible errors in your code and you can adjust to that error where the program doesn't undergo that error.
+
+# Commenting & Documentation
+
+You add comments when you're explaining your code, describing complex algorithms, documenting function inputs or outputs, and edge cases or assumptions. The following are the reasons when you should add comments: this is in order for your fellow developer to understand your code. 
+
+Avoid comments when you repeat what the code already says. You can also code in a way where it can be self-explanatory in terms of people understanding your code. If the code is easy to understand, I don't think you need to put comments in it. 
