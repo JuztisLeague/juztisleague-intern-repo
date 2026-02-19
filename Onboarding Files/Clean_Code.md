@@ -1,3 +1,16 @@
+# Understanding Clean Code Principles
+
+- **Simplicity** –  this means writing code that is as simple as possible while still solving the problem correctly. This also means that you must avoid unnecessary complexity and extra logic in the code.
+
+- **Readability** –  this means that it must have clear variable names, proper spacing, and formatting. This means that when you code, you must take into consideration that other people read your code and reuse your code as well. 
+
+- **Maintainability** – this is for your code to be organized, use small functions, and avoid duplication. For this, you must be able to maintain your code to be efficient and simpler. 
+
+- **Consistency** –  this means that your naming conventions, formatting style, and file structure should be consistent. In coding, you must 
+
+- **Efficiency** – This means that writing code must perform well and use resources properly. To have an efficient code, it must be able to run fast, use memory properly, and avoid unnecessary operations.
+
+
 # Writing Unit Tests for Clean Code
 
 Unit Test helps keep the code clean because it finds early bugs and it test small units to detect errors before the overall system is built. Another is that it makes the code safer to modify; once you can change code, tests are ensured not to break. I also improve code quality and save time in the long run.
