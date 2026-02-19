@@ -23,6 +23,14 @@ The original code is complex due to having too many nested conditionals, loop & 
 
 Refactoring improves the number of functions; some were omitted, and another is adding guard clauses to reduce nested conditionals. Lastly, it is to have readable logic, refactoring the code not only for the programs efficiency but also the ability for other developers to easily understand your logic in coding.
 
+# Code Formatting & Style Guides
+
+Code formatting is really important to improve the consistency and readability of the code for other developers. This follows the consistent format where developers can easily understand its structure without confusing the code logic.
+
+Linter detects missing semicolons, line exceeding the maximum length, and missing blank lines around headings and lists. This is really useful because it detects your mistakes before committing your code to the branch.
+
+Yes, using a code format makes it easier to understand and read the code because it is now properly structured and organized. It also makes the code look cleaner and looks more professional. This is also making it easier to maintain and modify in the future.
+
 # Naming Variables & Functions
 
 A good variable should describe the intent clearly, must use complete words, must be easier to understand, and use nouns for variables & verbs for functions. This is so that other developers will easily understand your code and easily reuse variables as well.
