@@ -1,0 +1,27 @@
+{
+  "name": "juztisleague-intern-repo",
+  "version": "1.0.0",
+  "description": "I am Von Juztis A. Elciario, a Mobile Development Intern at Focus Bear. This repository contains my onboarding materials and activities for the Focus Bear Internship Program. Most of the base files and resources included here are provided by the Focus Bear team, while additional content and updates are contributions based on my own work and progress throughout the internship.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuztisLeague/juztisleague-intern-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JuztisLeague/juztisleague-intern-repo/issues"
+  },
+  "homepage": "https://github.com/JuztisLeague/juztisleague-intern-repo#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "jest": "^30.2.0",
+    "markdownlint-cli": "^0.47.0"
+  }
+}

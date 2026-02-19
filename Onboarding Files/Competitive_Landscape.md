@@ -1,7 +1,8 @@
 # Compare Focus Bear with Other Productivity Apps
+
 ## Reflection
 
-Focus Bear is different from the following apps that were researched due to its capability to encapsulate all the features in one application. The following features make Focus Bear unique from most applications: Block Distractions, Habit Building, Step-by-Step Routines, Automatic Focus Activation, and Behavior Change Focus. 
+Focus Bear is different from the following apps that were researched due to its capability to encapsulate all the features in one application. The following features make Focus Bear unique from most applications: Block Distractions, Habit Building, Step-by-Step Routines, Automatic Focus Activation, and Behavior Change Focus.
 
 I would choose Focus Bear merely for its all-in-one system; instead of using different apps for different features, I would rather choose an application that can do everything in one system. Focus Bear also showcases a user-friendly environment for its application in order to provide ease of use for the users.
 

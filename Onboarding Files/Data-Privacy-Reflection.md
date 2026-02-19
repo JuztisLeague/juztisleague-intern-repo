@@ -8,31 +8,31 @@ Focus Bear collects the data of the users and ensures the confidentiality of the
 
 Types of data that are confidential to Focus Bear are the personal data of the users. These are the following data are collected on your personal data:  
 
-**Identification Data** - 
+**Identification Data** -
 Personal data used to contact, identify, or register a natural person.
 
-**Social Data** - 
+**Social Data** -
 Personal data related to personal characteristics and lifestyle.
 
-**Academic & Professional Data** - 
+**Academic & Professional Data** -
 Personal data related to academic levels, training, career and working experience.
 
-**Commercial & Marketing Data** - 
+**Commercial & Marketing Data** -
 Personal data related to preferences in Marketing, Activities and Businesses.
 
-**Technical Data** - 
+**Technical Data** -
 Personal data related to technology used to access websites, applications, software, and platforms.
 
-**Economic, Financial & Insurance Data** - 
+**Economic, Financial & Insurance Data** -
 Personal data related to the financial situation and banking details.
 
-**Profile Data** - 
+**Profile Data** -
 Personal data related to purchases, service preferences, feedback and surveys.
 
-**Aggregate Data** - 
+**Aggregate Data** -
 Personal data related to statistical or demographic information (e.g. Cookies).
 
-**Special Category of Data** - 
+**Special Category of Data** -
 Religious beliefs and personal data related to health.
 
 ## Best Practices of Handling Confidential Data
@@ -41,7 +41,7 @@ The first and best way of handling confidential data starts at the company, whic
 
 ## Respond to Suspected Data Breach
 
-To respond to a Suspected Data Breach, you must tell your supervisor or report it to the people in charge of handling the cybersecurity department. Incases like this, you must not hide it or solve the problem by yourself. You must be honest to report if breaches or accidental disclosure of confidential data are made. 
+To respond to a Suspected Data Breach, you must tell your supervisor or report it to the people in charge of handling the cybersecurity department. Incases like this, you must not hide it or solve the problem by yourself. You must be honest to report if breaches or accidental disclosure of confidential data are made.
 
 # Reflection
 
