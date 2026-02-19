@@ -22,3 +22,9 @@ Refactoring improves the number of functions; some were omitted, and another is 
 You add comments when you're explaining your code, describing complex algorithms, documenting function inputs or outputs, and edge cases or assumptions. The following are the reasons when you should add comments: this is in order for your fellow developer to understand your code. 
 
 Avoid comments when you repeat what the code already says. You can also code in a way where it can be self-explanatory in terms of people understanding your code. If the code is easy to understand, I don't think you need to put comments in it. 
+
+# Avoiding Code Duplication
+
+So the issue is that formulas and values are repetitive in the function, and it can just be reduced. Once these issues are simplified or refactored causes of bugs are possible from these formulas. This is the reason you should refactor the complexity of the duplication of code.
+
+This improves the maintainability and the reusability of the formula since it was turned into a function that can calculate it directly. Therefore, refactoring duplicated code into a reusable function can make it efficient and simpler to use by other developers.
