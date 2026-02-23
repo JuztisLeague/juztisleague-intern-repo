@@ -1,6 +1,5 @@
 # Agile Ceremonies & Team Collaboration
 
-
 ## Agile Ceremonies
 
 It is a meeting that forms the backbone of Agile project management frameworks. These ceremonies are designed to showcase transparency, team alignment, continuous delivery and iterative improvement throughout the development lifecycle. Here are the core Agile Ceremonies and there explanations:
@@ -23,7 +22,6 @@ This ensures teams deliver maximum value by regularly re-evaluating the backlog 
 
 It is an inspection of the process of how the product or component has been made. This is the team's dedicated opportunity to reflect on the past sprint and create a plan for the improvement in the next one. The purpose it to check or inspect if the previews sprint was achieved and not only the product but also the one making the product .
 
-
 ## Backlog Refinement
 
 It is an ongoing process which the Product Owner and the Development Team reviews the items on the Product Backlog to ensure they are well-understood estimated and ready for the future sprints.
@@ -36,4 +34,4 @@ They do this through asynchronous communication, through documentation and strat
 
 Agile Ceremonies is an important meeting that not only aligns the entire teams goals and objective but also enhances the ability to communicate the problems encountered by the development team. This ceremonies helps an entire company to become successful especially having people to collaborate from different countries and share new ideas to the entire team.
 
-In my role as an Mobile Development Intern the most important ceremony is the Sprint Planning or the Continuous Prioritization this is where developers get a fresh heads up on what to do everyday on there shift. This is important since this is in order to align the needed deliverables to be achieved everyday. 
+In my role as an Mobile Development Intern the most important ceremony is the Sprint Planning or the Continuous Prioritization this is where developers get a fresh heads up on what to do everyday on there shift. This is important since this is in order to align the needed deliverables to be achieved everyday.
