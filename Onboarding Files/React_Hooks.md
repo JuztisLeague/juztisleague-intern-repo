@@ -15,3 +15,11 @@ useMemo improves performance by preventing expensive calculations from running o
 You should avoid useMemo when the calculation is not expensive, which means the calculation that you created is already fast. Next is that the value changes every render; you must have values that don't change when you use useMemo. Lastly, over-optimizing small apps makes your code complex and harder to read.
 
 If I remove useMemo from my implemented component, it would cause an expensive calculation every render, and this causes my application to slow down. 
+
+# Understanding React Hooks: **useEffect**
+
+You should use useEffect instead of handling logic when the component lifecycle events, fetching data automatically, and reacting to state changes. 
+
+If you don't provide a dependency array, your code will run every single render, which causes performance issues and repeated API calls. 
+
+Improper use of useEffect can cause app crashes, slow down the application, and slow down the UI. These usual problems are caused by infinite loops, repeated API calls, and unnecessary execution.
