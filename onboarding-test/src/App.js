@@ -34,6 +34,7 @@ export default Parent;*/
 
 // React Router Activity
 import React from "react";
+import SimpleForm from "./SimpleForm";
 
 import {
   BrowserRouter,
@@ -45,6 +46,7 @@ import {
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 
+
 function App() {
 
   return (
@@ -55,7 +57,7 @@ function App() {
 
         <h1>Internship Sample Website</h1>
 
-        {/* Navigation */}
+        {}
         <nav>
 
           <Link to="/">Home</Link>
@@ -68,7 +70,7 @@ function App() {
 
         <hr />
 
-        {/* Routes */}
+        {}
         <Routes>
 
           <Route path="/" element={<Home />} />
@@ -76,7 +78,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
 
         </Routes>
-
+        <SimpleForm/>
       </div>
 
     </BrowserRouter>
@@ -86,3 +88,5 @@ function App() {
 }
 
 export default App;
+
+
