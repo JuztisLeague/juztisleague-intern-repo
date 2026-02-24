@@ -24,7 +24,7 @@ const SimpleForm = () => {
   return (
     <div>
 
-      <h2>List you Names</h2>
+      <h2>List your Names</h2>
 
       {/* Input Field */}
       <input

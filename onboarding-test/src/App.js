@@ -35,6 +35,7 @@ export default Parent;*/
 // React Router Activity
 import React from "react";
 import SimpleForm from "./SimpleForm";
+import Counter from "./Counter";
 
 import {
   BrowserRouter,
@@ -79,6 +80,7 @@ function App() {
 
         </Routes>
         <SimpleForm/>
+        <Counter/>
       </div>
 
     </BrowserRouter>
