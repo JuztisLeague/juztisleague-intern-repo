@@ -10,3 +10,7 @@ Common issues that you encounter working with lists in React are using index as 
 # Handling State & User Input
 
 When you change using setState, it will not re-render, the UI becomes inconsistent, and break the React's state system. Therefor your display won't increment the number, and the UI will be broken once you use the setState instead of the useState.
+
+# Understanding Components & Props
+
+Components are important in React because of their reusability, predictability through isolation, readability, and maintenance. Having components means you can reuse them once you have that component made, and you can change it in one file. As for its predictability through isolation, the component manages its own logic and state, which also makes debugging significantly faster.
