@@ -14,3 +14,8 @@ When you change using setState, it will not re-render, the UI becomes inconsiste
 # Understanding Components & Props
 
 Components are important in React because of their reusability, predictability through isolation, readability, and maintenance. Having components means you can reuse them once you have that component made, and you can change it in one file. As for its predictability through isolation, the component manages its own logic and state, which also makes debugging significantly faster.
+
+# Setting Up the Environment
+
+What challenges did you face during setup?
+The challenges I face during the setup were the Tailwind CSS setup, which is configuring the tailwind.config.js file correctly, due to the fact that I will not be detected by Tailwind unless configured properly.  Also, ensuring the index.css is properly imported, and lastly restarting the server after installation.
