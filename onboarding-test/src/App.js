@@ -32,7 +32,8 @@ const Parent = () => {
 export default Parent;*/
 
 
-// React Router Activity
+// React Router, Lists and Counter Activity
+/*
 import React from "react";
 import SimpleForm from "./SimpleForm";
 import Counter from "./Counter";
@@ -90,5 +91,18 @@ function App() {
 }
 
 export default App;
+*/
 
+import React from "react";
+import HelloWorld from "./HelloWorld";
+
+const App = ({ name }) => {
+  return (
+    <div className="App">
+        <HelloWorld name = "Von Juztis A. Elciario"/>
+    </div>
+  );
+};
+
+export default App;
 
