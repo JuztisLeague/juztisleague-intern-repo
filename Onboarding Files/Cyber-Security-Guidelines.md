@@ -33,3 +33,13 @@ Well, in order make it a habit, you need to practice it every day and make that 
 The steps I would take to ensure my password and accounts are secure are to create a unique password that is not easily determined by other people. I would also use a different password for every account I have, and I will use a password manager to create passwords that can enhance the security of my accounts.
 
 If ever I suspected of a security breach on my device or account, I quickly inform my supervisor and turn off my device and disconnect it from the internet. Next is to report the account or the website that can cause malware or phishing attacks.
+
+# Proof
+
+I have enabled Two-Factor Authentication (2FA) across my primary work and development accounts, including GitHub, and my professional email. To maintain a high security standard, I use a TOTP (Time-based One-Time Password) method via an authenticator app rather than SMS, ensuring that my recovery codes and sensitive access points remain protected even in the event of a SIM-swapping attempt.
+
+I am currently using Bitwarden as my primary password manager to store and generate unique, high-entropy credentials for my internship and personal portfolio projects. By centralizing my login data in an encrypted vault, I’ve moved away from password reuse and have secured the vault itself with a strong master password and biometric unlocking for my mobile devices.
+
+Regarding my device security, I have configured my laptop to automatically lock after 5 minutes of inactivity to protect my source code and sensitive documents when I am away from my desk. My phone is set to a more aggressive 30-second screen timeout and requires a fingerprint scan or a 6-digit PIN for every wake-up, ensuring my hardware remains inaccessible to unauthorized users in shared environments.
+
+The one new cybersecurity habit I am implementing at Focus Bear is a "Pre-Commit Secret Sweep" before every repository push. This habit involves a dedicated check of my .env files and API keys to ensure no sensitive credentials—like database strings or private tokens—accidentally leak into my version control history, protecting the integrity of both my professional and personal development work.
