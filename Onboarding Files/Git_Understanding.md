@@ -58,3 +58,37 @@ Staging is a process that prepares specific changes that is to be included in th
 They separated these commands in order for developers to have more control over their commits. It also allows developers to organize their changes into meaningful commits instead of committing everything at once.
 
 You want to stage changes without committing when you are still working on another part of the project. This allows you to review the staged changes. Ensure that they are correct and group related changes together before committing. 
+
+# Reflection
+
+During the Git onboarding activities for my Focus Bear internship, I practiced using Git and GitHub in a test repository to better understand how collaboration works in real software development. One of the key exercises was intentionally creating and resolving a merge conflict so that I could learn how developers handle conflicting changes when working on the same project.
+
+To perform this task, I first created two branches from the main branch in my test repository: feature-update-1 and feature-update-2. Both branches modified the same file so that a conflict would occur during the merge process. The file I edited was a simple test file called example.txt, which I used for the onboarding exercise.
+
+In the feature-update-1 branch, I edited the file and changed the content to:
+
+**Focus Bear onboarding activity - version 1**
+
+After committing that change, I switched to the feature-update-2 branch and edited the same line in the same file to:
+
+**Focus Bear onboarding activity - version 2**
+
+Because both branches changed the same line differently, Git could not automatically merge them. When I attempted to merge feature-update-2 into main using my Git client, Git detected a merge conflict and stopped the merge process. The Git client displayed a warning message indicating that example.txt contained conflicting changes. I also captured a screenshot of this merge conflict in my Git desktop client as evidence of the task.
+
+When I opened the file, Git had inserted conflict markers that looked like this:
+
+HEAD
+Focus Bear onboarding activity - version 1
+=======
+Focus Bear onboarding activity - version 2
+feature-update-2
+
+These markers show the two conflicting versions of the file. The section above the divider represents the current branch's version, while the section below represents the incoming branch's version.
+
+To resolve the conflict, I manually edited the file and decided to combine the information into a final version that made sense for the test repository:
+
+**Focus Bear onboarding activity - resolved version**
+
+After removing the conflict markers and saving the file, I staged the changes and completed the merge by committing the resolved version. This finalized the merge process and removed the conflict.
+
+Through this exercise, I learned how merge conflicts occur when multiple branches modify the same section of a file. I also learned how Git uses conflict markers to show the differences between versions, allowing developers to manually decide which change should be kept. Practicing this process helped me better understand how collaborative development works and why careful branch management, pull requests, and clear commit messages are important when multiple developers are working on the same codebase.
