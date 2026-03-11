@@ -18,8 +18,30 @@ In order to reduce prolonged time on the laptop this are the following habits th
 
 # Reflection
 
-Equipment changes that I must make are adding an external monitor and having a new chair that supports my back properly. Also adding a laptop stand where I can elevate my laptop and make my work efficient.
 
-Adjusting the brightness of the screen is one thing for sure, and I take regular breaks while doing my work. The following behavioral changes will improve not only my workflow but also my efficiency in working on the task.
 
-Obviously number one suggestion is the Focus Bear app since it has the ability to remind you to keep your posture and maintain it. The app also suggests you take a rest and stretch your body to reduce strain.
+To improve my productivity and reduce strain while working, I made several adjustments to my workspace setup. The main equipment changes I implemented include using a laptop stand, preparing for an external monitor, and planning to replace my current chair with a more ergonomic chair that properly supports my back.
+
+Currently, my workspace consists of a laptop placed on a desk with a laptop stand that elevates the screen to eye level. This adjustment helps reduce neck strain because I no longer need to bend my head downward while working. The laptop stand also creates a more comfortable viewing angle and improves airflow around the laptop.
+
+In addition to the laptop stand, I am preparing to add an external monitor in the future. This will allow me to have a larger display and better multitasking capabilities, which is especially helpful when working on coding tasks, documentation, or research. Having a second monitor can also reduce the need to constantly switch between windows, improving overall workflow efficiency.
+
+Another change I am planning is upgrading my chair to a proper ergonomic chair with lumbar support. At the moment, my chair does not fully support my lower back, which can cause discomfort during long working sessions. A chair with better back support will help maintain proper posture and reduce the risk of back pain.
+
+
+Aside from equipment improvements, I also made behavioral changes that support healthier work habits.
+
+One important change was adjusting my screen brightness to match the lighting in my room. This reduces eye strain and makes it more comfortable to look at the screen for extended periods.
+
+I also began taking regular breaks while working. Instead of sitting continuously for long periods, I now stand up, stretch, or walk around briefly between focus sessions. These breaks help reduce physical fatigue and allow me to maintain concentration when I return to work.
+
+A key tool that helped me implement these behavioral changes is the Focus Bear application. Focus Bear provides reminders that encourage better posture and regular movement throughout the day.
+
+For example, the application sends notifications reminding me to:
+
+- Sit up straight and correct my posture
+- Take short breaks
+- Stretch my body to reduce muscle strain
+
+During my work session, I received a reminder from Focus Bear prompting me to adjust my posture and take a short stretch break. This reminder appeared while I was focused on a task, which helped me realize that I had been sitting in the same position for too long.
+
