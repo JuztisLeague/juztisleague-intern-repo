@@ -1,3 +1,9 @@
+#  Introduction to Unit Testing with Jest
+
+Automated testing is important in software development because it allows developers to verify that their code works correctly without having to manually check everything every single time a change is made. In a real project like Focus Bear, the codebase grows bigger over time, and it becomes impossible to manually test every single feature after every change. Automated tests solve this problem by running all the checks for you in seconds. Another reason it is important is that it catches bugs early before they reach real users.
+
+The most challenging part of writing my first Jest test was understanding the structure of how a test is supposed to be written and what each part does. At first the syntax of describe, test, and expect was confusing because I was not sure how they worked together or why they were needed. I also found it challenging to understand the difference between toBe and toBeInTheDocument and when to use each one. Another challenge was figuring out the correct file naming and folder structure that Jest expects. I learned the hard way that Jest only recognizes test files inside a folder called __tests__ with double underscores on both sides, and that the file name must have .test.js with a dot before test and not a dash. Overall, the biggest lesson I learned from writing my first Jest test is that the setup and structure matter just as much as the test code itself, and paying attention to small details like folder names and file names can save a lot of debugging time.
+
 # Testing Redux with Jest
 
 For this activity, I worked on testing a Redux counter slice that included a reducer and three actions — increment, decrement, and reset. The slice was created using createSlice from Redux Toolkit, where each action modified the value in the initial state. I wrote tests for the reducer to verify that the increment action correctly updated the counter value from 0 to 1.
