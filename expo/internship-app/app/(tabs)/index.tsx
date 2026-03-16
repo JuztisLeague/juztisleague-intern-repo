@@ -1,45 +1,30 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
-
-import { HelloWave } from '@/components/hello-wave';
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { Link } from 'expo-router';
-import ProfileCard from "@/components/ProfileCard";
-
+import { View, StyleSheet } from "react-native";
+import { Button, Card, Text } from "react-native-paper";
 
 export default function HomeScreen() {
-  console.log("Debugging test successful!");
-
   return (
-    <><ThemedView style={styles.titleContainer}>
-      <ThemedText type="title">Hello Focus Bear Internship</ThemedText>
-      <HelloWave />
-    </ThemedView>
-    
-    <ThemedView style={styles.titleContainer}>
-        <ProfileCard />
-      </ThemedView></>
+    <View style={styles.container}>
+      <Card style={styles.card}>
+        <Card.Content>
+          {/*<Text variant="titleLarge">Von Juztis</Text>
+          <Text variant="bodyMedium">Frontend Developer</Text>*/}
+        </Card.Content>
+
+        <Card.Actions>
+          <Button mode="contained">Follow</Button>
+        </Card.Actions>
+      </Card>
+    </View>
   );
 }
 
-
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    padding: 20,
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
+  card: {
+    padding: 10,
   },
 });
