@@ -20,6 +20,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "testMatch": [
+      "/node_modules/",
+      "<rootDir>/../onboarding-test/",
+      "<rootDir>/../Axios_Activity/"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
