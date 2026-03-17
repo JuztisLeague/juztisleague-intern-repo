@@ -32,6 +32,12 @@ They do this through asynchronous communication, through documentation and strat
 
 # Reflection
 
-Agile Ceremonies is an important meeting that not only aligns the entire teams goals and objective but also enhances the ability to communicate the problems encountered by the development team. This ceremonies helps an entire company to become successful especially having people to collaborate from different countries and share new ideas to the entire team.
+Agile Ceremonies is an important meeting that not only aligns the entire team’s goals and objectives but also enhances the ability to communicate the problems encountered by the development team. These ceremonies help an entire company become successful, especially when collaborating with people from different countries and sharing new ideas with the entire team. Agile collaboration across different time zones is made possible through asynchronous communication, proper documentation, and strategic overlap hours, which further strengthens teamwork and coordination.
 
-In my role as an Mobile Development Intern the most important ceremony is the Sprint Planning or the Continuous Prioritization this is where developers get a fresh heads up on what to do everyday on there shift. This is important since this is in order to align the needed deliverables to be achieved everyday.
+In my role as a Mobile Development Intern, the most important ceremony is the Sprint Planning or Continuous Prioritization. This is where developers get a clear understanding of what tasks need to be accomplished during their shift. It is essential in aligning deliverables and ensuring that team members are aware of their responsibilities and priorities.
+
+Additionally, the daily standup meeting for Mobile Development usually starts at 1:15 PM GMT, where the CEO, Jeremy, initiates the meeting by calling the names of each team member. Each member is then given the opportunity to share their updates with the entire team. During one of these standups, I shared my onboarding process, which allowed me to introduce my progress and experiences to the group. This practice promotes open communication among team members and encourages transparency within the Mobile Development Team.
+
+One key learning I gained from participating in these ceremonies is the importance of open communication. It creates an environment where team members feel comfortable sharing their progress, challenges, and ideas, ultimately improving collaboration and productivity.
+
+To improve my team collaboration, one concrete change I can implement is to provide clearer and more structured status updates during standup meetings. This includes briefly stating what I have accomplished, what I am currently working on, and any blockers I may be facing. By doing this, I can contribute to better team alignment, reduce misunderstandings, and ensure that any issues are addressed promptly.
