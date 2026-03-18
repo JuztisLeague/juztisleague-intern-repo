@@ -128,6 +128,21 @@ They separated these commands in order for developers to have more control over 
 
 You want to stage changes without committing when you are still working on another part of the project. This allows you to review the staged changes. Ensure that they are correct and group related changes together before committing. 
 
+
+Evidence of completed steps:
+As shown in the screenshots, I successfully ran the full staging, committing, and pushing workflow on branch test_1 of the internship repository (juztisleague-intern-repo).
+
+<img width="936" height="341" alt="Image" src="https://github.com/user-attachments/assets/e70a8982-05d8-4e3b-ad5a-a7b286a9c13b" />
+
+The commit output confirmed:
+4 files changed, 210 insertions(+), 75 deletions(-)
+Files affected included expo/internship-app/app/(tabs)/profile.tsx (deleted), and newly created profile/[id].tsx and profile/index.tsx
+Successfully pushed to https://github.com/JuztisLeague/juztisleague-intern-repo on branch test_1, commit hash 5d51c9b
+
+<img width="579" height="257" alt="Image" src="https://github.com/user-attachments/assets/c205bc85-0820-40c5-bc40-6c5d34744e24" />
+
+This directly demonstrates the difference between a clean working tree and an unstaged change. The README.md modification was detected by git but not yet staged, meaning it would not be included in the next commit until explicitly added with git add.
+
 # Reflection
 
 During the Git onboarding activities for my Focus Bear internship, I practiced using Git and GitHub in a test repository to better understand how collaboration works in real software development. One of the key exercises was intentionally creating and resolving a merge conflict so that I could learn how developers handle conflicting changes when working on the same project.
