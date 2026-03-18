@@ -41,6 +41,18 @@ You use this especially when you have a lot of developers working on one applica
 
 Manually reviewing commits is very time-consuming, especially for an application with a lot of developers. This causes confusion in checking the different commits manually, rather than using a tool or command that can easily check the different commits that your developer posted for bugs. 
 
+<img width="530" height="550" alt="Image" src="https://github.com/user-attachments/assets/3a4730a2-5cf9-4baa-a4a3-3d15cc7c267d" />
+
+<img width="527" height="183" alt="Image" src="https://github.com/user-attachments/assets/9bbb53d5-4518-421a-9e9e-9fe377d61f13" />
+
+Evidence of completed steps:
+As shown in the screenshots, I successfully ran git bisect on the actual internship repository (juztisleague-intern-repo) on branch test_1:
+
+Initiated bisect with git bisect start
+Marked the bad commit using git bisect bad HEAD pointing to the most recent commit ce11f72 ("feature Logging Activity")
+Marked the good commit using git bisect good d2a7445 the oldest commit ("Create AI Usage Guidelines for Mobile Development")
+Git responded with: "Bisecting: 15 revisions left to test after this (roughly 4 steps)" and automatically checked out the middle commit 4e01c37 ("Feature added Axios Activity") confirming the binary search was actively running across my real commit history of 30+ commits
+
 # Advanced Git Commands & When to Use Them
 
 **git checkout** -  this command restores one file from your main branch without you touching other files.
