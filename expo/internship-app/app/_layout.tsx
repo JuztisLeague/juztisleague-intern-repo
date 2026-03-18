@@ -6,7 +6,7 @@ import 'react-native-reanimated';
 import * as Sentry from '@sentry/react-native';
 
 Sentry.init({
-  dsn: 'https://cab31d143e153c325cfda65575eaf7fe@o4511058590040064.ingest.us.sentry.io/4511058613305344',
+  dsn: 'https://cab31d143e153c325cfda65575eaf7fe@o4511058590040064.ingest.us.sentry.io/4511058613305344y',
   tracesSampleRate: 1.0, // 👈 add this — required for events to be sent
   enableLogs: true,
   debug: true,
