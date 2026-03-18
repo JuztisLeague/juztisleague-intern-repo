@@ -1,10 +1,19 @@
 # Creating & Reviewing Pull Requests
 
-Pull Request is really important, especially when you're in a workspace that is conducting remotely, and those people are from different places around the globe. This gives the ability to share and understand code properly from different people. They have the time to check and debug your code before combining it with the main code of the overall application. 
 
-A well-structured PR is the ability to explain the necessary additions to the code you committed on GitHub. This means that a well-structured PR is easily understood and can properly merge with the main program without any problems. 
+<img width="865" height="636" alt="Image" src="https://github.com/user-attachments/assets/09208336-8bd9-4c96-9103-4b1959ea2db7" />
 
-The PR is explained thoroughly, and the peers and mentors give feedback on the necessary changes you make to your PR to the main program. I understand that it is much easier for your peers, workmates, or supervisor to understand properly your PR in order to easily debug and realize your code additions.
+Pull Requests are essential in collaborative development, especially in remote teams where contributors work across different time zones and locations. A PR creates a structured checkpoint where peers and mentors can review, question, and debug code before it becomes part of the main application, reducing errors and improving overall code quality.
+Evidence of completed steps:
+As shown in the screenshot, I completed the full PR workflow on the internship repository:
+
+Branch creation & changes: I created a branch test_1 and made changes to the README file, specifically adding a line of text with personal details and internship information (commit: "Revise README with personal details and internship info") and adding an onboarding test branch description (commit: "Add onboarding test branch description").
+Opening a PR with a clear description: PR #64 titled "Revised Readme File Description" was opened with a structured description outlining the changes made and the purpose of practicing the GitHub branching and Pull Request workflow.
+Requesting feedback: The PR was reviewed and checked by Piolo, who provided feedback on the necessary changes before approval.
+Merging & deleting the branch: As confirmed in the screenshot, the PR was successfully merged (2 commits into main from test_1), with both commits marked as Verified.
+
+What I learned:
+A well-structured PR is more than just submitting code; it is about communicating your changes clearly so that reviewers can understand the purpose, scope, and impact without needing to ask for clarification. Writing a proper title and description, as I did in PR #64, makes it significantly easier for teammates and supervisors to review efficiently. Going through this hands-on exercise reinforced that the PR process is what keeps collaborative codebases clean, organized, and error-free before changes ever reach production.
 
 # Writing Meaningful Commit Messages
 
