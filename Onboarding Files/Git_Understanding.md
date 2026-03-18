@@ -108,6 +108,19 @@ Branches help with reviewing code since this allows developers to work on their 
 
 If two people edit the same file on different branches, Git will try to merge the changes when the branches are combined. However, if both people edit on the same line merge conflict will occur because Git can't decide which change to keep, and the developers must manually fix this problem.
 
+
+<img width="278" height="457" alt="Image" src="https://github.com/user-attachments/assets/9f439231-d4e8-41c1-b95e-8221864b0e59" />
+
+<img width="276" height="627" alt="Image" src="https://github.com/user-attachments/assets/07d5671d-e2f2-497a-a1dd-1d06d41d88eb" />
+
+Evidence of completed steps:
+As shown in the screenshots, I worked across two branches in the internship repository test_1 and main and the difference between them is clearly visible in the file structure:
+
+Branch test_1 (Image 1) shows the Onboarding Files folder containing my working set of markdown files, including AI-Usage-Guidelines.md, AI_Tools.md, Agile-Ceremonies.md, and others this is where my changes were made and committed before being reviewed.
+Branch main (Image 2) shows a more complete and structured version of the same folder, with additional files like React_Fundamentanatls/, API_calls.md, CI_CD_Reflection.md, Clean_Code.md, and Code_Smells.md confirming that main accumulates reviewed and merged contributions from all branches over time.
+
+The visible difference between the two branches in the file explorer directly demonstrates how branching works in practice each branch holds its own state of the repository independently.
+
 # Staging vs. Committing
 Staging is a process that prepares specific changes that is to be included in the next commit using the **git add** command.  This allows you to select which modified files or parts of the files will be saved. As for committing, it is the process of permanently saving the stage changes into your repository, which is using the **git commit** command. 
 
