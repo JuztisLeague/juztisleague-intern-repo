@@ -55,13 +55,38 @@ Git responded with: "Bisecting: 15 revisions left to test after this (roughly 4 
 
 # Advanced Git Commands & When to Use Them
 
-**git checkout** -  this command restores one file from your main branch without you touching other files.
+**git checkout** - this command restores one file from your main branch without you touching other files.
+
+git checkout allows you to restore a single file from another branch without affecting any other files in your working directory. In practice, I used this command to restore the _layout.tsx file from the main branch after it had been modified:
+
+<img width="742" height="33" alt="Image" src="https://github.com/user-attachments/assets/7a57371e-fdcb-4379-b402-e059b0f62ae9" />
+
+What surprised me about this command is that it is surgical; every other file I was working on stayed completely untouched. This is especially useful in real projects when you accidentally overwrite a file or introduce breaking changes to one specific file and just need to roll it back cleanly without doing a full branch reset.
 
 **git cherry pick** - this command copies one commit from the other branch.
 
+git cherry-pick lets you copy a single commit from one branch and apply it to another, without merging everything else. Using my internship repo, I cherry-picked the onboarding description commit from test_1 into another branch:
+
+<img width="510" height="35" alt="Image" src="https://github.com/user-attachments/assets/46abc345-d8e1-4e8a-9fec-729c638eeeec" />
+
+Commit d96aebc "Add onboarding test branch description" was selectively applied without pulling in any of the surrounding commits. What surprised me here was that cherry-pick creates a brand new commit hash for the copied commit, meaning the histories of both branches stay independent even though they now share the same change.
+
 **git log** - this shows the different commit history you have made.
 
+git log displays the full commit history of the repository. Running it with --oneline in the internship repo gave a clean summary of all 30+ commits:
+
+<img width="530" height="550" alt="Image" src="https://github.com/user-attachments/assets/3a4730a2-5cf9-4baa-a4a3-3d15cc7c267d" />
+
+This was directly useful during the git bisect activity. I used the output of git log --oneline to identify d2a7445 as the oldest good commit and HEAD as the bad commit to begin the binary search. Seeing 30+ commits laid out in one view made it clear just how much work had accumulated across different activities.
+
 **git blame** - shows the user who changed each line and when that line was changed.
+
+git blame shows the author and timestamp of every single line in a file. I ran it against the README file in the internship repo:
+
+<img width="483" height="33" alt="Image" src="https://github.com/user-attachments/assets/583771ff-d171-4eec-9a01-6bf106be7c7e" />
+
+The output revealed exactly which lines were added by which commit, including commit 03ecb6c ("Revise README with personal details and internship info"), showing my own additions line by line with the timestamp.
+This was the most surprising command of the four. I expected it to show general file history, but it goes down to the individual line level, meaning in a large team project, you can pinpoint not just who introduced a bug, but the exact line and the exact moment it was written. For long-running applications with many contributors, this removes all guesswork from debugging and code reviews entirely.
 
 Well, using these files in a real time projects is when you have long-running projects, since what happens is that many collaborators come in to edit the code, and this causes confusion about the different commits and the causes of the bugs in your system. In this way, you can easily track who and when the commits have been made and determine which commits cause the bugs. You can even restore a file if it is corrupted.
 
