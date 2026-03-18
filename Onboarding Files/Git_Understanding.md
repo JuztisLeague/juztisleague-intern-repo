@@ -77,7 +77,7 @@ Because both branches changed the same line differently, Git could not automatic
 
 When I opened the file, Git had inserted conflict markers that looked like this:
 
-HEAD
+
 Focus Bear onboarding activity - version 1
 =======
 Focus Bear onboarding activity - version 2
