@@ -24,6 +24,16 @@ How can poor commit messages cause issues later?
 
 Poor commit messages cause misinformation and the lack of determining the commits during backtracking. You also wait for the time of your supervisor or peers on what to fix or refactor in your commit due to a lack of information. 
 
+<img width="819" height="277" alt="Image" src="https://github.com/user-attachments/assets/72787862-779d-40bd-8e2c-7699781d9c00" />
+
+Evidence of commits made:
+As visible in the screenshot from PR #64 on the internship repository, the following commits were made on branch test_1:
+
+Commit d96aebc "Add onboarding test branch description" this is a well-structured commit message. It clearly states what was added and where, making it easy for any reviewer to understand the change without opening the diff.
+Commit 03ecb6c "Revise README with personal details and internship info" this is an overly detailed style, describing multiple changes in one message. While it provides context, combining unrelated changes (personal details + internship info) into one commit makes it harder to isolate specific changes during backtracking.
+
+Both commits are marked as Verified and were successfully merged into main via PR #64.
+
 # Debugging with git bisect
 Git bisect is the ability to recognize and detect the possible causes of bugs on all the different commits you have made. This command makes it easier for you to determine which commit causes the bug in your program.  
  
