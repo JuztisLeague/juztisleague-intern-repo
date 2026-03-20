@@ -23,12 +23,6 @@ The issue with the original code is that it does not have the ability to check i
 
 Error handling improves the reliability of your code because it handles the possibility of error coming out in your development. Implementing error handling is useful because it shows you what the possible errors in your code and you can adjust to that error where the program doesn't undergo that error.
 
-# Writing Small, Focused Functions
-
-Why is breaking down functions beneficial?
-Breaking down the function is beneficial because it avoids multiple responsibilities and makes the function easy to test. If bad functions are implemented, they usually have multiple responsibilities, are hard to test, hard to reuse, and are too long. Fixing this is through breaking down its function for it efficient and simpler for other developers to understand.
-
-Refactoring improves the structure of the code by making it more efficient and easier to understand. The functions are shortened, and it is now easier to test. Also, functions are becoming much easier to reuse.
 
 Bad Error Handling:
 
@@ -37,6 +31,14 @@ Bad Error Handling:
 Good Error Handling:
 
 <img width="455" height="557" alt="Image" src="https://github.com/user-attachments/assets/b776d317-7af4-49cf-82ad-5776849322df" />
+
+
+# Writing Small, Focused Functions
+
+Why is breaking down functions beneficial?
+Breaking down the function is beneficial because it avoids multiple responsibilities and makes the function easy to test. If bad functions are implemented, they usually have multiple responsibilities, are hard to test, hard to reuse, and are too long. Fixing this is through breaking down its function for it efficient and simpler for other developers to understand.
+
+Refactoring improves the structure of the code by making it more efficient and easier to understand. The functions are shortened, and it is now easier to test. Also, functions are becoming much easier to reuse.
 
 # Refactoring Code for Simplicity
 
@@ -65,6 +67,51 @@ Refactoring helps improve the readability of the code since I changed the unclea
 You add comments when you're explaining your code, describing complex algorithms, documenting function inputs or outputs, and edge cases or assumptions. The following are the reasons when you should add comments: this is in order for your fellow developer to understand your code. 
 
 Avoid comments when you repeat what the code already says. You can also code in a way where it can be self-explanatory in terms of people understanding your code. If the code is easy to understand, I don't think you need to put comments in it. 
+
+- Stating the Obvious
+Sample:
+
+<img width="127" height="51" alt="Image" src="https://github.com/user-attachments/assets/0407198e-5008-4afa-a1a3-8a5c10a1c501" />
+
+Solution:
+
+<img width="301" height="57" alt="Image" src="https://github.com/user-attachments/assets/21cfe4dc-2391-48a3-964b-98f5e45ebd39" />
+
+- Vague Comments
+Sample:
+
+<img width="286" height="85" alt="Image" src="https://github.com/user-attachments/assets/85368ae9-deac-47d6-8a43-5b2243e61be0" />
+
+Solution:
+
+<img width="323" height="96" alt="Image" src="https://github.com/user-attachments/assets/448930d5-21a9-40cc-ac23-95ba69babe8b" />
+
+- Commented-out Code without Reason
+Sample:
+
+<img width="292" height="132" alt="Image" src="https://github.com/user-attachments/assets/0d92957e-3dbc-4347-9d72-db5b312dbaa3" />
+
+Solution:
+
+<img width="537" height="100" alt="Image" src="https://github.com/user-attachments/assets/3619461f-66f2-45b3-a751-4785f0efc677" />
+
+-  Wrong and Outdated Comments
+Sample:
+
+<img width="217" height="95" alt="Image" src="https://github.com/user-attachments/assets/d494d181-851d-464c-99d9-0dbd8c49977c" />
+
+Solution:
+
+<img width="273" height="92" alt="Image" src="https://github.com/user-attachments/assets/44955fd4-e88b-4d86-a78f-8b02e930ca72" />
+
+-  No comments on Complex Logic Codes
+Sample:
+
+<img width="453" height="76" alt="Image" src="https://github.com/user-attachments/assets/e2aceb66-dd23-47bb-b6a0-d8f76a438ba6" />
+
+Solution:
+
+<img width="540" height="90" alt="Image" src="https://github.com/user-attachments/assets/246b02c9-f7a1-4fc7-8162-a103bfce231e" />
 
 # Avoiding Code Duplication
 
