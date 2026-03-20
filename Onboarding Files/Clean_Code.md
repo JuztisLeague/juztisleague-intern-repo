@@ -30,6 +30,14 @@ Breaking down the function is beneficial because it avoids multiple responsibili
 
 Refactoring improves the structure of the code by making it more efficient and easier to understand. The functions are shortened, and it is now easier to test. Also, functions are becoming much easier to reuse.
 
+Bad Error Handling:
+
+<img width="357" height="305" alt="Image" src="https://github.com/user-attachments/assets/2f39668b-2cae-4834-9f6b-593bc9a0ed95" />
+
+Good Error Handling:
+
+<img width="455" height="557" alt="Image" src="https://github.com/user-attachments/assets/b776d317-7af4-49cf-82ad-5776849322df" />
+
 # Refactoring Code for Simplicity
 
 The original code is complex due to having too many nested conditionals, loop & conditionals are mixed, and lastly, console logs inside logics. This was the original code's problem and its complexity, and I will try to refactor it to make it simpler and more efficient.
